@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Get a Random User (API) and cycle colours using JQuery/Bootstrap">
+    <meta name="keywords"
+        content="HTML, CSS, Bootstrap, Bootstrap 5.0.2, Javascript, JS, JQuery, JQuery 3.6.0, AJAX, API, randomuser">
+    <meta name="author" content="Paulo Pinto">
+    <title>Get Random User (API)</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="user" hidden=true class="position-absolute top-50 start-50 translate-middle col text-center">
+        <!-- Creates border -->
+        <div id="border" class="border border-top-0 border-info rounded-bottom p-4">
+
+            <h1 id="name" class="display-4 text-info"></h1>
+            <h2 id="username" class="mb-3"></h2>
+
+            <img alt="User Image" id="user_image" class="border border-info mb-3">
+            <ul id="personal_info" class="list-group">
+                <li class="list-group-item" id="email"></li>
+                <li class="list-group-item" id="location"></li>
+                <li class="list-group-item">
+                    Age
+                    <span class="badge rounded-pill bg-info" id="age"></span>
+                </li>
+            </ul>
+        </div>
+        <a class="mt-4 mx-auto btn btn-info" id="new_user">New User</a>
+        <a class="mt-4 mx-auto btn text-info border-info" id="change_colour">Next Colour</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
