@@ -7,4 +7,4 @@ Example use:
 
 ![alt text](example_use.gif)
 
-This was a great exercise to refresh my JQuery and learn a bit of Bootstrap!✔️
+This was a great exercise to refresh my JQuery and learn a bit more of Bootstrap!✔️
